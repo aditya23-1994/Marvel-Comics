@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.Card-list {
+  background-color: #282c34;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  font-size: 16px;
+  color: white;
+}
+
