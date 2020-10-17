@@ -2,7 +2,6 @@
 
 ### DISCRIPTION
 ***
-
-    - A marvel Comics Characters Frontend App in **REACTJS**
-    - Implemented fetching from marvel-api's.
-    - Created Card-list views using CSS-Grid.
+- A marvel Comics Characters Frontend App in ***ReactJS***
+- Implemented fetching from **marvel-api's**.
+- Created Card-list views using **CSS-Grid**.
