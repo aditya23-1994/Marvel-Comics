@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Card-list {
@@ -10,5 +12,7 @@
   grid-gap: 10px;
   font-size: 16px;
   color: white;
+  text-align: center;
+  padding-top: 20px;
 }
 
