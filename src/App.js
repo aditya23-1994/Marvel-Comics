@@ -17,7 +17,6 @@ class App extends Component {
       .then(response => response.json())
       .then(characters => this.setState({characters: characters.data.results}))
       .then(() => console.log(this.state))
-      .catch(err => console.log(err))
   }
 
   componentDidUpdate(pP, prevState){
@@ -32,8 +31,9 @@ class App extends Component {
   }
 
   handleChange = (e) => {
-    this.setState({search: e.target.value}, ()=> 
-      console.log(this.state.search));
+    (e.target.value === "") ? 
+      this.setState({search: "Captain America"}) 
+      : this.setState({search: e.target.value});
   }
 
   render(){
@@ -45,7 +45,7 @@ class App extends Component {
         <input 
           className="search" 
           type="search" 
-          placeholder="Marvel character"
+          placeholder={"Marvel character"}
           onChange={this.handleChange}
         />
         

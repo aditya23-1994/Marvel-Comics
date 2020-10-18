@@ -16,3 +16,19 @@
   padding-top: 20px;
 }
 
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 200px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  color: #111;
+  box-shadow: 3px 1px 2px 2px;
+  text-transform: uppercase;
+  height: 35px;
+}
+
